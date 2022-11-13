@@ -24,7 +24,12 @@ def imprimir_mayor(numero_1, numero_2):
     # cualquier de los datos en la variable mayor
 
     # Imprimir en pantalla la variable mayor
-
+if numero_1 > numero_2:
+        print(f'el número {numero_1} es mayor que el número {numero_2}')
+    elif numero_2 > numero_1:
+        print(f'el número {numero_2} es mayor a el número {numero_1}')
+    else:
+        print('Ambos son iguales')
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
